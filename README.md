@@ -9,7 +9,7 @@ This is a basic Next.js application that fetches and displays items from a MySQL
 
 ## Features
 
-- **Pagination**: Browse items by pages with customizable limits.
+- **Pagination**: Browse items by pages.
 
 ## Requirements
 
