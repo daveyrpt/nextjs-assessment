@@ -33,6 +33,6 @@ Create .env or refer .env.example
 
 Run command 'docker compose up --build -d'
 
-There is seeder that will automatically run to create test data for the database
+There is seeder that will automatically run to create test data for the database. Alternatively, you may run npm run seed.
 
 Access the website using for example '[localhost:3000](http://localhost:3000)'
