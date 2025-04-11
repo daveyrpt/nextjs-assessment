@@ -1,0 +1,40 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    networks:
+      - nextjs_network
+    environment:
+      - DB_HOST=nextjs_db
+      - DB_USER=user
+      - DB_PASSWORD=password
+      - DB_NAME=nextjs
+    volumes:
+      - .:/app
+      - /app/node_modules
+
+  
+  db:
+    image: mysql:8.0
+    container_name: nextjs_db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: nextjs
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
+    networks:
+      - nextjs_network
+    volumes:
+      - db_data:/var/lib/mysql
+
+networks:
+  nextjs_network:
+
+volumes:
+  db_data:
