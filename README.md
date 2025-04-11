@@ -4,7 +4,7 @@ This is a basic Next.js application that fetches and displays items from a MySQL
 
 ## Screenshot
 
-![Uploading image.png…]()
+<img width="1441" alt="image" src="https://github.com/user-attachments/assets/62352763-4138-4748-bd55-d92b69f6b12e" />
 
 
 ## Features
