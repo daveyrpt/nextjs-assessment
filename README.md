@@ -15,7 +15,7 @@ This is a basic Next.js application that fetches and displays items from a MySQL
 
 Before running the application locally, ensure you have the following installed:
 
-- [Docker](https://www.docker.com/get-started) (Optional for containerized setup)
+- [Docker](https://www.docker.com/get-started) 
 
 ---
 
