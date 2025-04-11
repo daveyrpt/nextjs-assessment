@@ -2,7 +2,10 @@
 
 This is a basic Next.js application that fetches and displays items from a MySQL database with pagination.
 
-Demo : zyz.com
+## Screenshot
+
+![Uploading image.png…]()
+
 
 ## Features
 
